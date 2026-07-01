@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6n0103/X/v1
+canonical_location: https://kanripo.org/bkk/KR6n0103/X/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 百法明門論論義
+  identifiers:
+    krp: KR6n0103
+    cbeta: X48n0802
+    cbeta_old_id: X48n0802
+    authorityid: CA0005006
+    json_key: X0802
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X48/X48n0802.xml
+    old_id: X48n0802
+  edition:
+    short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6n0103_000-X.yaml, hash: 'sha256:954c29a7e9fdeb6ee1bbb4861786f130d1a9a76263a654d0bd55105ad69d130f'}
+  - {seq: 1, filename: KR6n0103_001-X.yaml, hash: 'sha256:f957ed1be120e28789be5e4e7d4e257884d43865968f440f70efed0600bdd85b'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6n0103_000-X.markers.yaml, hash: 'sha256:48fece1ffb3cfaf1ba11408409fb565814b5ae7eb3bd8fcebb238497b5e7155a'}
+  - {seq: 1, role: markers, filename: assets/KR6n0103_001-X.markers.yaml, hash: 'sha256:c8aed2c9a31475962371a9c12bdbb2ab247cc8c3b3560d780b40e9d93d1f7c70'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6n0103_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 5269
+  label: 百法論義
+  type: juan
+  level: 1
+hash: sha256:76fafe5b790cd952c608afc6879c32df8e97ea6a5b12cfa0ced9a595e98d4ff2
