@@ -22,9 +22,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6n0103_000.yaml, hash: 'sha256:954c29a7e9fdeb6ee1bbb4861786f130d1a9a76263a654d0bd55105ad69d130f'}
-  - {seq: 1, filename: KR6n0103_001.yaml, hash: 'sha256:e38e6c08259bde29de447b00bb1772315ccdf47a59470b627c5cf50d76729762'}
+  - {seq: 1, filename: KR6n0103_001.yaml, hash: 'sha256:f957ed1be120e28789be5e4e7d4e257884d43865968f440f70efed0600bdd85b'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6n0103_001.markers.yaml, hash: 'sha256:ace731358e76cddf184101a47de54a53e10ac92391b9edbe5da77edd7563c952'}
+  - {seq: 0, role: markers, filename: assets/KR6n0103_000.markers.yaml, hash: 'sha256:86d1e981ef787440af39a864f621d68ccbde6dfe1720689b5588c9ec28d92c0c'}
+  - {seq: 1, role: markers, filename: assets/KR6n0103_001.markers.yaml, hash: 'sha256:4cca3f163e53ffe053dbaefd5db4b655dd5cdd08aa0389e92101d32d0b3a0294'}
 table_of_contents:
 - ref:
     seq: 1
@@ -36,7 +37,4 @@ table_of_contents:
   label: 百法論義
   type: juan
   level: 1
-hash: sha256:d549849af01ea5793957b64e95dda45953d48954cff81202ef2d4a1d138de1fb
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:9ce8762ddf6dbb5ed6f0055effcd94da90f7f06a17c8da4316270a1723d6acab
